@@ -1,0 +1,34 @@
+@font-face{
+	font-family: "blaak-regular";
+	src: url("blaak/BlaakRegularPersonalUse-9DdL.ttf");
+}
+
+@font-face{
+	font-family: "blaak-thin";
+	src: url("blaak/BlaakThinPersonalUse-nzoP.ttf");
+}
+
+@font-face{
+	font-family: "blaak-bold";
+	src: url("blaak/BlaakBoldPersonalUse-G28D.ttf");
+}
+
+@font-face{
+	font-family: "MagnatHead-Regular";
+	src:url("magnat/MagnatHead-Regular.otf");
+}
+
+@font-face{
+	font-family: "magnat-regular";
+	src:url("magnat/MagnatHead-Regular.otf");
+}
+
+@font-face{
+	font-family: "MagnatHead-Bold";
+	src:url("magnat/MagnatHead-Bold.otf");
+}
+
+@font-face{
+	font-family: "MagnatPoster-Regular";
+	src:url("magnat/MagnatPoster-Regular.otf");
+}
