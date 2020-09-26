@@ -64,8 +64,8 @@ li a{
 .Cursor span {
   position: absolute;
   display: block;
-  width: 36px;
-  height: 36px;
+  width: 25px;
+  height: 25px;
   border-radius: 20px;
   background-color: #fff;
   -webkit-transform-origin: center center;
@@ -83,7 +83,7 @@ svg{
 	display: block;
 	border-radius: 0;
 	transform-origin: center center;
-			mix-blend-mode: difference;
+			mix-blend-mode: luminostiy;
 	transform: translate(-10%,-10%);
 	top: 0;
 	left: 0;
