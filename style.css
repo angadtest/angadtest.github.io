@@ -192,17 +192,20 @@ svg{
 #nav-links ul li:last-child{
 	padding-right: 0;
 }
+
 #nav-links ul li a{
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;	
 	text-transform: uppercase;
-}
-#nav-links ul li a:hover{
-	letter-spacing: .3em;
-	transition: letter-spacing .5s;
+
+transition: letter-spacing .5s;
 	-moz-transition: letter-spacing .5s;
 	-webkit-transition: letter-spacing .5s;
 }
+#nav-links ul li a:hover{
+	letter-spacing: .3em;
+}
+
 .nav-links-mobile{
 	position: absolute;
 	background-color: red;
@@ -215,7 +218,7 @@ svg{
 .display-nav-links-mobile{
 	z-index: 4;
 	animation-name: fadeMobileMenu;
-	animation-duration: .5s;
+	animation-duration: .2s;
 	animation-fill-mode: forwards;
 }
 @keyframes fadeMobileMenu{
@@ -238,7 +241,7 @@ svg{
 	margin: 1em;
 	border-bottom: 7px solid #fff;
 	animation-name: mobileLinksAnimation;
-	animation-duration: .5s;
+	animation-duration: .2s;
 	animation-fill-mode: forwards;
 	transform: translateY(50%);
 }
