@@ -35,7 +35,7 @@ li a{
 }
 #banner{
 	  
-	background-color:#E6FF00;
+	background-color:#E9E9E9;
 }
 
 #footer{
@@ -196,7 +196,7 @@ svg{
 #nav-links ul li a{
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;	
-	color:#000000;
+	color:#9D9D9D;
 
 transition: letter-spacing .5s;
 	-moz-transition: letter-spacing .5s;
@@ -317,15 +317,15 @@ transition: letter-spacing .5s;
 
 }
 h1{
-	font-size: 25px;
+	font-size: 30px;
 	font-family: "Montserrat",sans-serif;
 	font-weight: 400;
-	color:#000000;
+	color:#9D9D9D;
 }
 h2{
 	font-size: 125px;
 	font-family: "MagnatHead-Bold", sans-serif;
-	color: #000000;
+	color: #968468;
 }
 .banner-icons{
 	width: 100%;
@@ -336,8 +336,8 @@ h2{
 	animation-name: arrow;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
-	}
-
+	opacity:0.3;
+}
 @keyframes arrow{
 	from { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
@@ -489,13 +489,13 @@ h2{
 		width: 85%;
 	}
 }
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 1373px){
 	h1{
-		font-size: 25px;
+		font-size: 30px;
 
 	}
 	h2{
-		font-size: 90px;
+		font-size: 115px;
 	}
 }
 
