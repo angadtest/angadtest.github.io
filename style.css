@@ -492,19 +492,19 @@ h2{
 @media only screen and (max-width: 1600px){
 	h1{
 		font-size: 25px;
-
 	}
+
 	h2{
 		font-size: 90px;
 	}
-	.project-title{
-	font-size: 110px;
-	cursor: none;
-	
-	margin-bottom: .1em;
-}
 
-.projects-container{
+	.project-title{
+	font-size: 125px;
+	cursor: none;
+	margin-bottom: .1em;
+	}
+
+	.projects-container{
 	margin-left:120px;
 	}
 
@@ -520,6 +520,10 @@ h2{
 	}
 	.Cursor{
 		display: none;
+	}
+
+	.projects-container{
+	margin-left:20px;
 	}
 }
 @media only screen and (max-width: 915px){
