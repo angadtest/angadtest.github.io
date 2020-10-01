@@ -42,7 +42,7 @@ li a{
 }
 
 #footer{
-	  	background-color:#E6FF00;
+	  	background-color:#201BA9;
 }
 
 
@@ -256,7 +256,7 @@ transition: letter-spacing .5s;
 	100%{opacity: 1;transform: translateY(0%);}
 }
 .display-nav-links-mobile ul li a{
-	font-family: "blaak-bold", sans-serif;
+	font-family: "MagnatPoster-Regular", sans-serif;
 	font-size: 96px;
 	color: #161616;
 	line-height: .8em;
@@ -428,7 +428,7 @@ h2{
 }
 .project-title,.project-sub-title{
 	font-family: "MagnatPoster-Regular", sans-serif;
-	color: #262626;
+	color: #121212;
 	transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
