@@ -20,6 +20,7 @@ body{
 .container{
 	width: 70%;
 	margin: 0 auto;
+
 }
 
 
@@ -185,6 +186,7 @@ svg{
 }
 .logo{
 	width:3%;
+	filter: invert(1);
 }
 #nav-links ul li{
 	padding: 0 1em;
@@ -381,7 +383,7 @@ h2{
 @keyframes lines{
 	from { transform: translate(-40px, -50px) scale(1); }
     65%  { transform: translate(-40px, -50px) scale(1.1); }
-    65% { -webkit-filter: blur(3px);}
+    
     to   { transform: translate(-40px, -50px) scale(1); } 
 }
 
@@ -481,6 +483,7 @@ h2{
 }
 .social-icons{
 	width: 15%;
+
 }
 .social-icon{
 	padding: 0 .5em;
@@ -559,6 +562,7 @@ h2{
 }
 @media only screen and (max-width: 915px){
 	.logo{
+		filter: invert(1);
 		width: 5%;
 	}
 	.social-icons{
