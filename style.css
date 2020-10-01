@@ -14,12 +14,15 @@
 body{
 	position: relative;
 	overflow-x:hidden;
-	 	}
+
+	}
 
 .container{
 	width: 70%;
 	margin: 0 auto;
 }
+
+
 .flex{
 	display: flex;
 	justify-content: space-between;
@@ -196,7 +199,7 @@ svg{
 #nav-links ul li a{
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;	
-	color:#000000;
+	color:#FFF;
 
 transition: letter-spacing .5s;
 	-moz-transition: letter-spacing .5s;
@@ -325,14 +328,14 @@ h1{
 h2{
 	font-size: 125px;
 	font-family: "MagnatPoster-Regular", sans-serif;
-	color: #FFF;
+	color: #01FFFF;
 }
 .banner-icons{
 	width: 100%;
 	padding-bottom: 13vh;
 }
 .arrow{
-	width: 5%;
+	width: 4%;
 	animation-name: arrow;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
@@ -367,11 +370,30 @@ h2{
     to   { transform: translate(0, -0px); } 
 }
 
+.eye-lines{
+	animation-name: lines;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    mix-blend-mode: multiply;
+}
+
+@keyframes lines{
+	from { transform: translate(-40px, -50px) scale(1); }
+    65%  { transform: translate(-40px, -50px) scale(1.1); }
+    65% { -webkit-filter: blur(3px);}
+    to   { transform: translate(-40px, -50px) scale(1); } 
+}
+
 .eye img,.arrow img, .eye-lines img{
 	display: block;
 	width: 100%;
 	height: auto;
 }
+
+
+
+
 /****************** projects *****************/
 #projects{
 	
@@ -411,6 +433,7 @@ h2{
 	-moz-transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 }
+
 
 
 .project-title{
