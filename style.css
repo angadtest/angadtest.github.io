@@ -530,6 +530,14 @@ h2{
 	.projects-container{
 	margin-left:120px;
 	}
+	.eye{
+		margin: 0 auto;
+		width: 60%;
+	}
+	.eye-lines{
+		margin: 0 auto;
+		width: 60%;
+	}
 
 }
 
@@ -634,6 +642,10 @@ h2{
 		display: none;
 	}
 	.eye{
+		margin: 0 auto;
+		width: 60%;
+	}
+	.eye-lines{
 		margin: 0 auto;
 		width: 60%;
 	}
