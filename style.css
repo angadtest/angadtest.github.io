@@ -35,7 +35,7 @@ li a{
 }
 #banner{
 	  
-	background-color:#F6D3F1;
+	background-color:#DAB2A8;
 }
 
 #footer{
@@ -320,12 +320,12 @@ h1{
 	font-size: 25px;
 	font-family: "Montserrat",sans-serif;
 	font-weight: 400;
-	color:#E45113;
+	color:#000000;
 }
 h2{
 	font-size: 125px;
 	font-family: "MagnatPoster-Regular", sans-serif;
-	color: #E45113;
+	color: #000000;
 }
 .banner-icons{
 	width: 100%;
