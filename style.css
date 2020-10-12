@@ -435,7 +435,7 @@ h2{
 	width: 100%;
 }
 .project{
-	margin-bottom:6em;
+	margin-bottom:5em;
 
 }
 .project-title,.project-sub-title{
@@ -452,14 +452,13 @@ h2{
 	font-size: 150px;
 	cursor: none;
 	
-	margin-bottom: .1em;
 }
 .project-title:hover{
-		letter-spacing: .1em;
+		letter-spacing: .02em;
 		color:#fff;
 	}
 .project-title:hover{
-		letter-spacing: .1em;
+		letter-spacing: .02em;
 		color:#fff;
 }
 .project-title:hover  + .project-sub-title{
@@ -537,7 +536,7 @@ h2{
 	.project-title{
 	font-size: 125px;
 	cursor: none;
-	margin-bottom: .1em;
+	
 	}
 
 	.projects-container{
