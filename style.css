@@ -543,15 +543,7 @@ h2{
 	.projects-container{
 	margin-left:120px;
 	}
-	.eye{
-		margin: 0 auto;
-		width: 60%;
-	}
-	.eye-lines{
-		margin: 0 auto;
-		width: 60%;
-	}
-
+	
 }
 
 @media only screen and (max-width: 990px ){
@@ -660,6 +652,14 @@ h2{
 	.bottom-footer{
 		font-size: 16px;
 		padding: 2em 0;
+	}
+	.eye{
+		margin: 0 auto;
+		width: 60%;
+	}
+	.eye-lines{
+		margin: 0 auto;
+		width: 60%;
 	}
 }
 @media only screen and (max-width: 408px){
