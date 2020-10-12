@@ -30,6 +30,10 @@ $('.cursor > span').css('background-color', '');
   });
 
 })(jQuery);*/
+
+
+      
+
 document.addEventListener("scroll",function(){
 	
 
