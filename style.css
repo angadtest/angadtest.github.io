@@ -262,9 +262,7 @@ transition: letter-spacing .5s;
 }
 @keyframes mobileLinksAnimation{
 	0%{opacity: 0;transform: translateY(50%);}
-	25%{opacity: .25;transform: translateY(37.5%);}
 	50%{opacity: .5;transform: translateY(25%);}
-	75%{opacity: .75;transform: translateY(12.5%);}
 	100%{opacity: 1;transform: translateY(0%);}
 }
 .display-nav-links-mobile ul li a{
@@ -290,7 +288,7 @@ transition: letter-spacing .5s;
 .toggle-button-bar{
 	width: 100%;
 	height: 2px;
-	background-color: #000;
+	background-color: #fff;
 	
 }
 .translate-top-toggle-button-bar{
