@@ -650,11 +650,21 @@ h2{
 		font-size: 16px;
 		padding: 2em 0;
 	}
-	.eye, .eye-lines{
-	width: 60%;
-	height: auto;
+	.eye{
+	display: block;
+	margin-top: 60px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
 	}
-}
+
+	.eye-lines{
+	display: block;
+  	margin-left: 20px;
+  	margin-right: auto;
+  	margin-top: 12px;
+  	width: 70%;
+  }
 @media only screen and (max-width: 408px){
 	h1{
 		font-size: 16px;
