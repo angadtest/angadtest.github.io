@@ -651,7 +651,6 @@ h2{
 		padding: 2em 0;
 	}
 	.eye, .eye-lines{
-	display: block;
 	width: 60%;
 	height: auto;
 	}
