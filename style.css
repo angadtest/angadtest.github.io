@@ -652,7 +652,7 @@ h2{
 		font-size: 16px;
 		padding: 2em 0;
 	}
-	.eye img, .eye-lines img{
+	.eye, .eye-lines{
 	display: block;
 	width: 60%;
 	height: auto;
