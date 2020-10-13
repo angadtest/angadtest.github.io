@@ -490,7 +490,7 @@ h2{
 }
 .social-icons{
 	width: 15%;
-
+	filter: invert(1);
 }
 .social-icon{
 	padding: 0 .5em;
@@ -662,7 +662,7 @@ h2{
 	display: block;
   	margin-left: 20px;
   	margin-right: auto;
-  	margin-top: 12px;
+  	margin-top: 15px;
   	width: 70%;
   }
 @media only screen and (max-width: 408px){
@@ -671,7 +671,7 @@ h2{
 
 	}
 	h2{
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
