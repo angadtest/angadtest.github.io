@@ -516,6 +516,7 @@ h2{
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;
 	padding: 3em 0;
+	color:#fff;
 }
 @media only screen and (max-width: 1740px){
 	.container{
@@ -647,7 +648,7 @@ h2{
 	}
 	
 	.bottom-footer{
-		font-size: 16px;
+		font-size: 12px;
 		padding: 2em 0;
 	}
 	.eye{
