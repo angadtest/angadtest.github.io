@@ -15,19 +15,40 @@
 <link rel="stylesheet" href="css/font-awesome.min.css">
 
 <!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/stylep.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+	<!--<div class="cursor">
+		<span class="trail1"></span>
+		<span class="trail2"></span>
+		<span class="trail3"></span>
+		<span class="trail4"></span>
+		<span class="trail5"></span>
+		<span class="trail6"></span>
+		<span class="trail7"></span>
+		<span class="trail8"></span>
+		<span class="trail9"></span>
+		<span class="trail10"></span>
+		
+	</div>-->
+	<div id="cursor" class="Cursor">
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+			    </filter>
+			  </defs>
+			</svg>
+	<div id="grained" class="grained">
+		
+	</div>
 
-<!-- PRE LOADER -->
 
-<div class="preloader">
-     <div class="sk-spinner sk-spinner-wordpress">
-          <span class="sk-inner-circle"></span>
-     </div>
-</div>
 
 <!-- Navigation section  -->
 
