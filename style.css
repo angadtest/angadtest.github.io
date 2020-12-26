@@ -93,7 +93,7 @@ a:hover {
   display: block;
   width: 25px;
   height: 25px;
-  border-radius: 20px;
+  border-radius: 50px;
   background-color: #fff;
   -webkit-transform-origin: center center;
           transform-origin: center center;
