@@ -77,7 +77,7 @@ a:hover {
 .Cursor {
   pointer-events: none;
   position: fixed;
-  display: block;
+  display: flex;
   border-radius: 30;
   -webkit-transform-origin: center center;
           transform-origin: center center;
@@ -238,7 +238,6 @@ transition: letter-spacing .5s;
 .nav-links-mobile{
 	position: absolute;
 	background-color: black;
-	color:#FFF;
 	top:0;
 	left:0;
 	opacity: 0;
@@ -269,7 +268,7 @@ transition: letter-spacing .5s;
 .display-nav-links-mobile ul li{
 	padding: 0;
 	margin: 1em;
-	border-bottom: 4px solid #fff;
+	border-bottom: 0px solid #f32;
 	animation-name: mobileLinksAnimation;
 	animation-duration: .2s;
 	animation-fill-mode: forwards;
@@ -283,7 +282,7 @@ transition: letter-spacing .5s;
 .display-nav-links-mobile ul li a{
 	font-family: "MagnatPoster-Regular", sans-serif;
 	font-size: 96px;
-	color: #161616;
+	color: #FFF;
 	line-height: .8em;
 
 }
