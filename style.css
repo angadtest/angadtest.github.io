@@ -93,7 +93,7 @@ a:hover {
   display: block;
   width: 25px;
   height: 25px;
-  border-radius: 300px;
+  border-radius: 30px;
   background-color: #fff;
   -webkit-transform-origin: center center;
           transform-origin: center center;
@@ -237,7 +237,8 @@ transition: letter-spacing .5s;
 
 .nav-links-mobile{
 	position: absolute;
-	background-color: red;
+	background-color: black;
+	color:#FFF;
 	top:0;
 	left:0;
 	opacity: 0;
