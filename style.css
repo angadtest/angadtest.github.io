@@ -78,7 +78,7 @@ a:hover {
   pointer-events: none;
   position: fixed;
   display: block;
-  border-radius: 0;
+  border-radius: 30;
   -webkit-transform-origin: center center;
           transform-origin: center center;
   mix-blend-mode: difference;
