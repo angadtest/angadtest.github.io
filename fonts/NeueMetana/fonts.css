@@ -29,13 +29,11 @@
 }
 
 @font-face{
-	font-family: "NeueMetana-Regular";
-	src:url("NeueMetana/NeueMetana-Regular.otf");
+	font-family: "MagnatPoster-Regular";
+	src:url("magnat/MagnatPoster-Regular.otf");
 }
 
 @font-face{
-	font-family: "NeueMetana-Bold";
-	src:url("NeueMetana/NeueMetana-Bold.otf");
+	font-family: "NeueMetana-Regular";
+	src:url("NeueMetana/NeueMetana-Regular.otf");
 }
-
-
