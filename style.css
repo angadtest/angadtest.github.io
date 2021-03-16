@@ -356,6 +356,12 @@ h2{
 	font-family: "MagnatPoster-Regular", sans-serif;
 	color: #01FFFF;
 }
+h3{
+	
+	font-family: "Montserrat", sans-serif;
+	color: #FFFFFF;
+	font-weight: 360;
+}
 .banner-icons{
 	width: 100%;
 	padding-bottom: 13vh;
