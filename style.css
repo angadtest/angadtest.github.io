@@ -626,6 +626,9 @@ h3{
 	h2{
 		font-size: 75px;
 	}
+	h3{
+		font-size: 40px;
+	}
 	.thumbnail-mobile{
 		display: block;
 		margin-bottom: 1em;
