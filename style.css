@@ -664,6 +664,9 @@ h3{
 	h2{
 		font-size: 55px;
 	}
+	h3{
+		font-size: 30px;
+	}
 }
 @media only screen and (max-width: 575px){
 	.logo{
@@ -693,6 +696,9 @@ h3{
 	}
 	h2{
 		font-size: 45px;
+	}
+	h3{
+		font-size: 20px;
 	}
 	.display-nav-links-mobile ul li a{
 		font-size: 65px;
@@ -730,6 +736,9 @@ h3{
 	}
 	h2{
 		font-size: 35px;
+	}
+	h3{
+		font-size: 20px;
 	}
 }
 
