@@ -596,8 +596,10 @@ h3{
 	.projects-container{
 	margin-left:70px;
 	}
-	
-}
+
+	.eye-lines{
+	margin-left: 34px;
+    }
 
 @media only screen and (max-width: 990px ){
 	.container{
