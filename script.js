@@ -34,6 +34,7 @@ $('.cursor > span').css('background-color', '');
 
       
 
+
 document.addEventListener("scroll",function(){
 	
 

@@ -73,6 +73,7 @@ a:hover {
 }
 
 
+
 /******************* cursor *******************/
 .Cursor {
   pointer-events: none;
@@ -613,6 +614,25 @@ h3{
 	.projects-container{
 	margin-left:2px;
 	}
+	.projects-container{
+	margin-left:70px;
+	}
+	.eye{
+	display: block;
+	margin-top: 60px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+	}
+
+	.eye-lines{
+	display: block;
+  	margin-left: 28px;
+  	margin-right: auto;
+  	margin-top: 17px;
+  	width: 70%;
+  }
+	
 }
 @media only screen and (max-width: 915px){
 	.logo{
