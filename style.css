@@ -580,11 +580,11 @@ h3{
 }
 @media only screen and (max-width: 1600px){
 	h1{
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	h2{
-		font-size: 90px;
+		font-size: 60px;
 	}
 
 	.project-title{
@@ -594,7 +594,7 @@ h3{
 	}
 
 	.projects-container{
-	margin-left:50px;
+	margin-left:30px;
 	}
 
 	.eye-lines{
