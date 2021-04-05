@@ -463,7 +463,7 @@ h3{
 }
 .project-title,.project-sub-title{
 	font-family: "NeueMetana-Regular", sans-serif;
-	color: #121212;
+	color: #333333;
 	transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
