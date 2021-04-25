@@ -17,6 +17,12 @@ body{
 
 	}
 
+section{
+	transition: transform 0.5s;
+	will-change: transform;
+
+}
+
 .container{
 	width: 70%;
 	margin: 0 auto;
