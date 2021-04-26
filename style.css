@@ -498,6 +498,11 @@ h3{
 	font-size: 35px;
 }
 
+.eye:hover{
+		letter-spacing: .02em;
+		color:#fff;
+	}
+
 /*
 .font-animation-on{
 	
