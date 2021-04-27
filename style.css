@@ -69,6 +69,7 @@ a {
 	background-size: 2px 2px;
    text-decoration: none;
    font-family: "Montserrat";
+   color: #FFF;
 }
 
 a:hover {
@@ -625,7 +626,7 @@ h3{
 	}
 
 	.eye-lines{
-	margin-left: 5px;
+	margin-left: 12px;
 	margin-top: 10px;
     }
 
