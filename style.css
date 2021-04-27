@@ -17,6 +17,7 @@ body{
 
 	}
 
+
 section{
 	transition: transform 0.4s;
 	will-change: transform;
@@ -77,6 +78,7 @@ a:hover {
   background-repeat: repeat-x;
   text-decoration: none;
 }
+
 
 
 /******************* cursor *******************/
@@ -335,7 +337,15 @@ transition: letter-spacing .5s;
 	transition: transform .2s linear;
 	-moz-transition: transform .2s linear;
 	-webkit-transition: transform .2s linear;
+
 }
+
+
+
+
+
+
+
 /****************** banner ********************/
 #banner{
 	height: 100vh;
@@ -612,7 +622,7 @@ h3{
 	}
 
 	.eye-lines{
-	margin-left: 28px;
+	margin-left: 10px;
 	margin-top: 19px;
     }
 
@@ -651,7 +661,7 @@ h3{
 }
 @media only screen and (max-width: 915px){
 	.logo{
-		filter: invert(1);
+		filter: invert(0);
 		width: 5%;
 	}
 	.social-icons{
