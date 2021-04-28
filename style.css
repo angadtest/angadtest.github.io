@@ -569,10 +569,11 @@ h3{
 }
 .bottom-footer{
 	font-size: 20px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat Regular", sans-serif;
 	padding: 3em 0;
-	color:#fff;
+	color:#000;
 	font-weight: 300;
+	text-align: center;
 }
 
 
@@ -629,6 +630,15 @@ h3{
 	margin-left: 12px;
 	margin-top: 10px;
     }
+
+    .bottom-footer{
+	font-size: 16px;
+	font-family: "Montserrat Regular", sans-serif;
+	padding: 3em 0;
+	color:#000;
+	font-weight: 300;
+	text-align: center;
+}
 
 @media only screen and (max-width: 990px ){
 	.container{
@@ -784,6 +794,16 @@ h3{
   	margin-top: 17px;
   	width: 70%;
   }
+
+  .bottom-footer{
+	font-size: 10px;
+	font-family: "Montserrat Regular", sans-serif;
+	padding: 3em 0;
+	color:#000;
+	font-weight: 300;
+	text-align: center;
+	line-height: 140%
+}
 @media only screen and (max-width: 408px){
 	h1{
 		font-size: 16px;
