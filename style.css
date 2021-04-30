@@ -547,7 +547,24 @@ h3{
 	width: 15%;
 	filter: invert(0);
 }
-.social-icon{
+
+.social-icon-mail:hover{
+filter: invert(1);
+}
+.social-icon-linkedin:hover{
+filter: invert(1);
+}
+.social-icon-behance:hover{
+filter: invert(1);
+}
+
+.social-icon-mail{
+	padding: 0 .5em;
+}
+.social-icon-linkedin{
+	padding: 0 .5em;
+}
+.social-icon-behance{
 	padding: 0 .5em;
 }
 .social-icon:first-child{
