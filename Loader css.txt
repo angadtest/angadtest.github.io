@@ -1,0 +1,17 @@
+#white{
+width:100%;
+position:fixed;
+height: 100vh;
+z-index: 10000;
+background: #fff no-repeat center center;
+overflow: visible;
+}
+
+#loader {
+	width:100%;
+    position: relative;
+    height: 100vh;
+    z-index: 1000000;
+    overflow: visible;
+    background: #fff url('img/jif.gif') no-repeat center center;
+}

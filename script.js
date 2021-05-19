@@ -32,8 +32,17 @@ $('.cursor > span').css('background-color', '');
 })(jQuery);*/
 
 
-
-      
+$(document).ready(function(){
+    setTimeout(function() {
+        $('#loader').fadeOut();
+    }, 9500);
+});
+    
+    $(document).ready(function(){
+    setTimeout(function() {
+        $('#white').fadeOut();
+    }, 9500);
+});  
 
 
 document.addEventListener("scroll",function(){
