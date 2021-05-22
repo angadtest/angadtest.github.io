@@ -11,10 +11,16 @@
 	scroll-behavior: smooth;
 }
 
-.box {
+
+/* warp speed ahead */
+.animClass {
 	transform: translate3d(0, 0, 0);
 	backface-visibility: hidden;
 	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	/* more specific animation properties here */
 }
 
 body{
@@ -105,6 +111,12 @@ a:visited {
   z-index: 1000;
   -webkit-filter: url("#goo");
           filter: url("#goo");
+    transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 }
 .Cursor span {
   position: absolute;
