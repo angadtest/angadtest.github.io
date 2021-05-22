@@ -11,6 +11,12 @@
 	scroll-behavior: smooth;
 }
 
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+
 
 /* warp speed ahead */
 .animClass {
@@ -33,6 +39,18 @@ body{
 section{
 	transition: transform 0.4s;
 	will-change: transform;
+	-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+
 
 }
 
