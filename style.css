@@ -11,24 +11,6 @@
 	scroll-behavior: smooth;
 }
 
--webkit-transform: translateZ(0);
--moz-transform: translateZ(0);
--ms-transform: translateZ(0);
--o-transform: translateZ(0);
-transform: translateZ(0);
-
-
-/* warp speed ahead */
-.animClass {
-	transform: translate3d(0, 0, 0);
-	backface-visibility: hidden;
-	perspective: 1000;
-	-webkit-transform: translate3d(0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
-	/* more specific animation properties here */
-}
-
 body{
 	position: relative;
 	overflow-x:hidden;
@@ -39,24 +21,23 @@ body{
 section{
 	transition: transform 0.4s;
 	will-change: transform;
-	-webkit-transform: translateZ(0);
--moz-transform: translateZ(0);
--ms-transform: translateZ(0);
--o-transform: translateZ(0);
-transform: translateZ(0);
-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 	backface-visibility: hidden;
 	perspective: 1000;
 	-webkit-transform: translate3d(0, 0, 0);
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
-
-
 }
 
 .container{
 	width: 70%;
 	margin: 0 auto;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 
 }
 
@@ -65,6 +46,12 @@ transform: translate3d(0, 0, 0);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 }
 a img{
 	display: block;
@@ -394,6 +381,12 @@ transition: letter-spacing .5s;
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 
 }
 
@@ -494,6 +487,12 @@ h3{
 	align-items: flex-start;
 	padding: 12em 0;
 	z-index: 10;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 }
 
 .thumbnail{
