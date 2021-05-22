@@ -50,7 +50,7 @@ li a{
 	color: #000;
 }
 #banner{
-	  
+	  will-change: transform;
 	background-color:#FFAD19;
 	-webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
@@ -97,6 +97,7 @@ a:visited {
 
 /******************* cursor *******************/
 .Cursor {
+	will-change: transform;
   pointer-events: none;
   position: fixed;
   display: flex;
@@ -236,7 +237,7 @@ svg{
 	width: 100%;
 	padding: 9vh 0 0;
 	z-index: 5;
-
+	will-change: transform;
 
 }
 .logo{
@@ -261,6 +262,7 @@ svg{
 transition: letter-spacing .5s;
 	-moz-transition: letter-spacing .5s;
 	-webkit-transition: letter-spacing .5s;
+	will-change: transform;
 }
 #nav-links ul li a:hover{
 	letter-spacing: .3em;
@@ -476,7 +478,7 @@ h3{
 	
 	background-color: #000;
 	padding-top: 70vh;
-	
+
 }
 .projects-container{
 	flex-direction: column;
