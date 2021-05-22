@@ -22,12 +22,16 @@ body{
 section{
 	transition: transform 0.4s;
 	will-change: transform;
-	transform: translateZ(0)
-}
+	-webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);}
 
 .container{
 	width: 70%;
 	margin: 0 auto;
+	
 
 }
 
@@ -48,7 +52,11 @@ li a{
 #banner{
 	  
 	background-color:#FFAD19;
-	transform: translateZ(0)
+	-webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
 #footer{
