@@ -21,12 +21,7 @@ body{
 section{
 	transition: transform 0.4s;
 	will-change: transform;
-	transform: translate3d(0, 0, 0);
-	backface-visibility: hidden;
-	perspective: 1000;
-	-webkit-transform: translate3d(0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
+	transform: translateZ(0)
 }
 
 .container{
@@ -102,14 +97,7 @@ a:visited {
   top: 0;
   left: 0;
   z-index: 1000;
-  -webkit-filter: url("#goo");
-          filter: url("#goo");
-    transform: translate3d(0, 0, 0);
-	backface-visibility: hidden;
-	perspective: 1000;
-	-webkit-transform: translate3d(0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
+  transform: translateZ(0)
 }
 .Cursor span {
   position: absolute;
