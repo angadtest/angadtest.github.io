@@ -97,8 +97,9 @@ a:visited {
   top: 0;
   left: 0;
   z-index: 1000;
-  transform: translateZ(0)
-}
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+ 
 .Cursor span {
   position: absolute;
   display: block;
