@@ -614,7 +614,7 @@ filter: invert(1);
 
 }
 .bottom-footer{
-	font-size: 20px;
+	font-size: 16px;
 	font-family: "Montserrat Regular", sans-serif;
 	padding: 3em 0;
 	color:#000;
@@ -773,7 +773,7 @@ filter: invert(1);
 		font-size: 55px;
 	}
 	h3{
-		font-size: 12px;
+		font-size: 14px;
 	}
 }
 @media only screen and (max-width: 575px){
@@ -806,7 +806,7 @@ filter: invert(1);
 		font-size: 40px;
 	}
 	h3{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.display-nav-links-mobile ul li a{
 		font-size: 60px;
