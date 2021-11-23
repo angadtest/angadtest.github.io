@@ -417,13 +417,13 @@ h3{
 .arrow{
 	width: 4%;
 	animation-name: arrow;
-	animation-duration: 1.5s;
+	animation-duration: 0s;
 	animation-iteration-count: infinite;
 	}
 
 @keyframes arrow{
 	from { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    0%  { transform: translate(0, 9px); }
     to   { transform: translate(0, -0px); }
 }
 .eye{
