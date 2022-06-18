@@ -439,9 +439,11 @@ h3{
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
+
 }
 .eye .eye-lines{
 	transform: translate(-12%,-60%);
+	
 	z-index: 1;
 }
 @keyframes eye{

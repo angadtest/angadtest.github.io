@@ -38,4 +38,40 @@
 	src:url("NeueMetana/NeueMetana-Bold.otf");
 }
 
+@font-face{
+	font-family: "Sombra-Black";
+	src:url("Sombra/Sombra-Black.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Bold";
+	src:url("Sombra/Sombra-Bold.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Light";
+	src:url("Sombra/Sombra-Light.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Medium";
+	src:url("Sombra/Sombra-Medium.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Poster";
+	src:url("Sombra/Sombra-Poster.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Regular";
+	src:url("Sombra/Sombra-Regular.otf");
+}
+
+@font-face{
+	font-family: "Sombra-Thin";
+	src:url("Sombra/Sombra-Thin.otf");
+}
+
+
 
